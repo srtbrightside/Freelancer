@@ -1,15 +1,120 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Freelancer</title>
-	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
-
-</head>
-<body>
-	<!-- Escribe tu código aquí -->
-
-	<!-- Enlaza aquí tu archivo JS -->
-	
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Freelancer</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+      <!-- Enlaza aquí tu CSS común y de tu proyecto -->
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/common.css">
+      <link rel="stylesheet" type="text/css" href="css/grid.css">
+   </head>
+   <body>
+      <!-- Escribe tu código aquí -->
+			<!-- HEADER -->
+      <div id="contenedor-principal">
+         <header class="col-12">
+            <h1 class="logo">Start bootstrap</h1>
+            <nav class="menu">
+               <ul>
+                  <li><a href="#">PORTAFOLIO</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONTACT</a></li>
+               </ul>
+            </nav>
+         </header>
+				 <!-- HOME -->
+         <section id="home">
+            <div class="container">
+               <div class="row">
+                  <div id="profile" class="col-3">
+                     <img class="img-responsive" src="assets/images/profile.png">
+                  </div>
+               </div>
+            </div>
+            <div id="profile-text">
+               <h2>Start bootstrap</h2>
+               <p>Web Developer - Graphic Artist - User Experience Designer</p>
+            </div>
+         </section>
+				 <!-- PORTAFOLIO -->
+         <section id="portafolio" class="container">
+            <h2>Portfolio</h2>
+             <div class="row">
+               <!-- primera fila -->
+               <div class="col-4">
+                  <img src="assets/images/portfolio/cabin.png" class="img-responsive">
+               </div>
+               <div class="col-4">
+                  <img src="assets/images/portfolio/cake.png" class="img-responsive">
+               </div>
+               <div class="col-4">
+                  <img src="assets/images/portfolio/circus.png" class="img-responsive">
+               </div>
+               <!-- segunda fila -->
+               <div class="col-4">
+                  <img src="assets/images/portfolio/game.png" class="img-responsive">
+               </div>
+               <div class="col-4">
+                  <img src="assets/images/portfolio/safe.png" class="img-responsive">
+               </div>
+               <div class="col-4">
+                  <img src="assets/images/portfolio/submarine.png" class="img-responsive">
+               </div>
+            </div>
+         </section>
+				 <!--  ABOUT -->
+         <section id="about" >
+            <h2>About</h2>
+            <div class="container">
+               <div class="row">
+                  <div class="col-6">
+                     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                  </div>
+                  <div class="col-6">
+                     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                  </div>
+               </div>
+            </div>
+            <a href="#">Download Theme</a>
+         </section>
+         <!--CONTACT -->
+         <section id="contact">
+            <h2>Contact me</h2>
+            <form class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <input type="text" placeholder="Name" name="">
+                  </div>
+                  <div class="col-12">
+                     <input type="email" placeholder="Email Address" name="">
+                  </div>
+                  <div class="col-12">
+                     <input type="cell" placeholder="Phone Number" name="">
+                  </div>
+                  <div class="col-12">
+                     <input type="textarea" placeholder="Message" row="10">
+                  </div>
+                  <div class="col-12">
+                     <button type="submit">Send</button>
+                  </div>
+               </div>
+            </form>
+         </section>
+         <!-- FOOTER -->
+         <footer>
+            <h3>Location</h3>
+            <p>3481 Melrose Place</p>
+            <p>Beverly Hills, CA 90210</p>
+            <h3>Around the web</h3>
+            <a href="#">icono</a>
+            <h3>About freelancer</h3>
+            <p>Freelance is a free to use, open source</p>
+            <p>Bootstrap theme created by <a href="#">Strat Bootstrap</a>.</p>
+         </footer>
+         <div>Copyright &copy; Your Website 2016</div>
+      </div>
+      <!-- Enlaza aquí tu archivo JS -->
+      <script type="text/javascript" src="js/app.js"></script>
+   </body>
 </html>
